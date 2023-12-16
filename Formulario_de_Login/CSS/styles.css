@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+html,body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-image: linear-gradient(to right,#22577a,#34a0a4,#57cc99);
+    width: 100%;
+}    
+.form-container{
+    color: white;
+    width: 500px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(16, 71, 85, 0.5);
+    
+}
+.form-container .title{
+    background-image: linear-gradient(to right,#22577a,#38a3a5) ;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 10px 0px 10px;
+    
+}
+.form-container .linhas{
+    color: black;
+    background-color: #fff;
+    padding: 10px 20px 30px 20px;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+
+}
+
+
+.linhas label{
+    font-size: 18px;
+    text-align: left;
+    
+  
+   
+    
+    
+}
+.linhas input{
+    text-align: left;
+    height: 40px;
+    margin-top: 5px;
+    width: 80%;
+}
+.linhas button{
+    background-image: linear-gradient(to right,#22577a,#38a3a5);
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+
+.linhas a {
+    text-decoration: none;
+    font-size: 15px;
+    text-align: left;
+    color: #219ebc;
+}
+.linhas a:hover{
+    color: #34a0a4;
+}
+.linhas a:link{
+   color: #104755
+}
+.linhas p {
+    font-size: 15px;
+}
+.linhas label, .linhas input, .linhas button, .linhas a, .linhas p {
+    margin-bottom: 10px;
+}
+
+/*PAGINA CADASTRO*/
+
+.container-cadastro{
+    color: white;
+    width: 500px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(16, 71, 85, 0.5);
+
+}   
+.container-cadastro .titulo-cadastro{
+    background-image: linear-gradient(to right,#22577a,#38a3a5) ;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 10px 10px 10px;
+
+    
+}
+.container-cadastro .linhas-cadastro{
+    color: black;
+    background-color: #fff;
+    padding: 10px 20px 30px 20px;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+
+}
+.linhas-cadastro label{
+    font-size: 18px;
+    text-align: left;
+}
+.linhas-cadastro input{
+    text-align: left;
+    height: 30px;
+    margin-top: 5px;
+    width: 80%;
+}
+.linhas-cadastro button{
+    background-image: linear-gradient(to right,#22577a,#38a3a5);
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+.linhas-cadastro a {
+    text-decoration: none;
+    font-size: 15px;
+    text-align: left;
+    color: #219ebc;
+}
+.linhas-cadastro a:hover{
+    color: #34a0a4;
+}
+.linhas-cadastro a:link{ 
+   color: #104755
+}
+.linhas-cadastro  p {
+    font-size: 15px;
+}
+.linhas-cadastro label, .linhas-cadastro input, .linhas-cadastro button, .linhas-cadastro a, .linhas-cadastro p {
+    margin-bottom: 10px;
+}
